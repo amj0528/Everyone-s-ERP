@@ -38,7 +38,7 @@ public class AdminSMSController {
 	     * 발급받은 API KEY와 API Secret Key를 사용해주세요.
 	     */
 	 public AdminSMSController() {
-	        this.messageService = NurigoApp.INSTANCE.initialize("NCSLWF5JHA0Y23SX", "JRVLCBY48582DUECSGB7CT5SS60G51CL", "https://api.coolsms.co.kr");
+	        this.messageService = NurigoApp.INSTANCE.initialize("abc", "abc", "https://api.coolsms.co.kr");
 	 }
 	 
 	 
