@@ -380,7 +380,7 @@ function check_passwd(mbrPwd) {
     //return ;
     var key = $("#hidretval").val();
     var params = {
-             form : '01085232382'      ,
+             form : 'phonenumber'      ,
             content : key            ,
             to    : $("#phone").val()   , //-들어가면 안보내지므료 -은 빼준다
             text      : "회원님의 인증번호는["+key+"]입니다"       
