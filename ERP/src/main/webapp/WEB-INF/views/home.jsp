@@ -538,8 +538,12 @@ function MainBanner(){//메인 배너
          var valgap = sys.getTime() - start.getTime();
          var val = Math.ceil(valgap / (1000*60*60*24));
          
-         if(max<0){//등록일 이전 날짜를 마감날짜로 선택했을 경우
+         if(max<1){//등록일 이전 날짜를 마감날짜로 선택했을 경우
             var max = 1;
+         }
+         
+         if(val<1){
+            var val = 1;
          }
          
          var per = Math.ceil(val/max*100);
