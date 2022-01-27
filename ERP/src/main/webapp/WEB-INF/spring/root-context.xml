@@ -14,15 +14,15 @@
 
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<!-- <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"> 
-			</property> <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE"></property> -->
+			</property> <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:숫자:XE"></property> -->
 
 		<property name="driverClassName"
 			value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
 		<property name="jdbcUrl"
-			value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property>
+			value="jdbc:log4jdbc:oracle:thin:@localhost:숫자:XE"></property>
 
-		<property name="username" value="project"></property>
-		<property name="password" value="1234"></property>
+		<property name="username" value="이름"></property>
+		<property name="password" value="비번"></property>
 	</bean>
 
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource"
