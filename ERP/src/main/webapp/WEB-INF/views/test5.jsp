@@ -13,7 +13,7 @@
 <body>
 </body>
 <script type="text/javascript">
-IMP.init('imp15353637'); //가맹점 키
+IMP.init('keynum'); //가맹점 키
 
 IMP.request_pay({
     pg : 'inicis', // version 1.1.0부터 지원.
@@ -21,9 +21,9 @@ IMP.request_pay({
     merchant_uid : 'merchant_' + new Date().getTime(),
     name : '주문명:결제테스트',
     amount : 14000, //판매 가격
-    buyer_email : 'ph830914@gmail.com',
-    buyer_name : '박형준',
-    buyer_tel : '010-8523-2382',
+    buyer_email : 'email',
+    buyer_name : '이름',
+    buyer_tel : '000-0000-0000',
     buyer_addr : '서울특별시 강남구 삼성동',
     buyer_postcode : '123-456'
 }, function(rsp) {
